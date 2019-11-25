@@ -1,0 +1,11 @@
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\StackDesignPattern.exe
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\StackDesignPattern.deps.json
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\StackDesignPattern.runtimeconfig.json
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\StackDesignPattern.runtimeconfig.dev.json
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\StackDesignPattern.dll
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\StackDesignPattern.pdb
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\StackDesignPattern.csprojAssemblyReference.cache
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\StackDesignPattern.AssemblyInfoInputs.cache
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\StackDesignPattern.AssemblyInfo.cs
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\StackDesignPattern.dll
+C:\Users\bigza\source\repos\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\StackDesignPattern.pdb

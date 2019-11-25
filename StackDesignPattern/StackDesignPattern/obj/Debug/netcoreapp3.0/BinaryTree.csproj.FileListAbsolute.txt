@@ -1,0 +1,11 @@
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\BinaryTree.exe
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\BinaryTree.deps.json
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\BinaryTree.runtimeconfig.json
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\BinaryTree.runtimeconfig.dev.json
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\BinaryTree.dll
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\bin\Debug\netcoreapp3.0\BinaryTree.pdb
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\BinaryTree.csprojAssemblyReference.cache
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\BinaryTree.AssemblyInfoInputs.cache
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\BinaryTree.AssemblyInfo.cs
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\BinaryTree.dll
+F:\Projects\Depa\StackDesignPattern\StackDesignPattern\obj\Debug\netcoreapp3.0\BinaryTree.pdb

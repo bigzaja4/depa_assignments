@@ -1,0 +1,11 @@
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\bin\Debug\netcoreapp3.0\VehicleStateDesignPattern.exe
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\bin\Debug\netcoreapp3.0\VehicleStateDesignPattern.deps.json
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\bin\Debug\netcoreapp3.0\VehicleStateDesignPattern.runtimeconfig.json
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\bin\Debug\netcoreapp3.0\VehicleStateDesignPattern.runtimeconfig.dev.json
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\bin\Debug\netcoreapp3.0\VehicleStateDesignPattern.dll
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\bin\Debug\netcoreapp3.0\VehicleStateDesignPattern.pdb
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\obj\Debug\netcoreapp3.0\VehicleStateDesignPattern.csprojAssemblyReference.cache
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\obj\Debug\netcoreapp3.0\VehicleStateDesignPattern.AssemblyInfoInputs.cache
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\obj\Debug\netcoreapp3.0\VehicleStateDesignPattern.AssemblyInfo.cs
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\obj\Debug\netcoreapp3.0\VehicleStateDesignPattern.dll
+C:\Users\bigza\source\repos\VehicleStateDesignPattern\VehicleStateDesignPattern\obj\Debug\netcoreapp3.0\VehicleStateDesignPattern.pdb

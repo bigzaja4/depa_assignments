@@ -1,0 +1,11 @@
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.exe
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.deps.json
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.runtimeconfig.json
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.runtimeconfig.dev.json
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.dll
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.pdb
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.csprojAssemblyReference.cache
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.AssemblyInfoInputs.cache
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.AssemblyInfo.cs
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.dll
+C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.pdb
