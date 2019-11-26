@@ -13,7 +13,7 @@ namespace StackDesignPattern
             root = null;
         }
 
-        public Node add(Node node, string message)
+        private Node add(Node node, string message)
         {
             if(node == null)
             {
@@ -38,7 +38,7 @@ namespace StackDesignPattern
             this.root = add(this.root, message);
         }
 
-        public void printNode(Node root)
+        private void printNode(Node root)
         {
             if(root != null)
             {
