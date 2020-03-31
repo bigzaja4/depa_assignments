@@ -9,3 +9,14 @@ C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\obj\Debug\netc
 C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.AssemblyInfo.cs
 C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.dll
 C:\Users\bigza\source\repos\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.pdb
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.exe
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.deps.json
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.runtimeconfig.json
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.runtimeconfig.dev.json
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.dll
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\bin\Debug\netcoreapp3.0\StateDesignPattern.pdb
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.csprojAssemblyReference.cache
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.AssemblyInfoInputs.cache
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.AssemblyInfo.cs
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.dll
+F:\Projects\Depa\StateDesignPattern\StateDesignPattern\obj\Debug\netcoreapp3.0\StateDesignPattern.pdb
