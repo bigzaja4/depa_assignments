@@ -15,7 +15,7 @@ jobs:
           command: |
             dotnet test DepaTest
 
-  build:
+  buildstatepattern:
     executor: win/default
 
     steps:
@@ -33,6 +33,24 @@ jobs:
       - store_artifacts:
           path: ./VehicleStateDesignPattern/tempArtifacts/artifacts
 
+  Observerpattern:
+    executor: win/default
+
+    steps:
+      - checkout
+
+      - run:
+          name: "dotnet publish"
+          command: |
+            dotnet publish -o ./ObserverDesignPattern/tempArtifacts ./ObserverDesignPattern/ObserverDesignPattern/ObserverDesignPattern.csproj
+            cd ObserverDesignPattern/tempArtifacts
+            Compress-Archive . ObserverDesignPattern.zip
+            mkdir artifacts
+            mv ObserverDesignPattern.zip artifacts
+
+      - store_artifacts:
+          path: ./ObserverDesignPattern/tempArtifacts/artifacts
+
 workflows:
   version: 2.1
   build:
@@ -47,6 +65,10 @@ workflows:
           #   branches:
           #     only: develop
 
-      - build:
+      - buildstatepattern:
+          requires:
+            - approve-build
+
+      - Observerpattern:
           requires:
             - approve-build
