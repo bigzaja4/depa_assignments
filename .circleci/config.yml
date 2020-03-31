@@ -14,9 +14,8 @@ jobs:
           name: "dotnet publish"
           command: |
             dotnet publish -o ./VehicleStateDesignPattern/tempArtifacts ./VehicleStateDesignPattern/VehicleStateDesignPattern/VehicleStateDesignPattern.csproj
-            yum install zip -y
             cd VehicleStateDesignPattern/tempArtifacts
-            zip -r VehicleStateDesignPattern .
+            Compress-Archive . VehicleStateDesignPattern.zip
             mkdir artifacts
             mv VehicleStateDesignPattern.zip artifacts
 
