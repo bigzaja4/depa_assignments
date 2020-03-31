@@ -1,74 +1,12 @@
-version: 2.1
+ version: 2.1
 
-orbs:
+ orbs:
   win: circleci/windows@2.2.0
 
-jobs:
-  test:
-    executor: win/default
-
-    steps:
-      - checkout
-
-      - run:
-          name: "dotnet publish"
-          command: |
-            dotnet test DepaTest
-
-  buildstatepattern:
-    executor: win/default
-
-    steps:
-      - checkout
-
-      - run:
-          name: "dotnet publish"
-          command: |
-            dotnet publish -o ./VehicleStateDesignPattern/tempArtifacts ./VehicleStateDesignPattern/VehicleStateDesignPattern/VehicleStateDesignPattern.csproj
-            cd VehicleStateDesignPattern/tempArtifacts
-            Compress-Archive . VehicleStateDesignPattern.zip
-            mkdir artifacts
-            mv VehicleStateDesignPattern.zip artifacts
-
-      - store_artifacts:
-          path: ./VehicleStateDesignPattern/tempArtifacts/artifacts
-
-  Observerpattern:
-    executor: win/default
-
-    steps:
-      - checkout
-
-      - run:
-          name: "dotnet publish"
-          command: |
-            dotnet publish -o ./ObserverDesignPattern/tempArtifacts ./ObserverDesignPattern/ObserverDesignPattern/ObserverDesignPattern.csproj
-            cd ObserverDesignPattern/tempArtifacts
-            Compress-Archive . ObserverDesignPattern.zip
-            mkdir artifacts
-            mv ObserverDesignPattern.zip artifacts
-
-      - store_artifacts:
-          path: ./ObserverDesignPattern/tempArtifacts/artifacts
-
-workflows:
-  version: 2.1
-  build:
-    jobs:
-      - test
-
-      - approve-build:
-          type: approval
-          requires:
-            - test
-          # filters:
-          #   branches:
-          #     only: develop
-
-      - buildstatepattern:
-          requires:
-            - approve-build
-
-      - Observerpattern:
-          requires:
-            - approve-build
+ jobs:
+   build:
+     executor: win/default     
+    
+     steps:
+       - checkout
+       - run: dotnet build
