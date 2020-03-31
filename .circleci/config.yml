@@ -12,7 +12,28 @@ jobs:
 
       - run:
           name: "dotnet publish"
-          command: "dotnet publish -o ./VehicleStateDesignPattern/tempArtifacts ./VehicleStateDesignPattern/VehicleStateDesignPattern/VehicleStateDesignPattern.csproj"
+          command: |
+            dotnet publish -o ./VehicleStateDesignPattern/tempArtifacts ./VehicleStateDesignPattern/VehicleStateDesignPattern/VehicleStateDesignPattern.csproj
+            apt-get update
+            apt-get install zip -y
+            cd VehicleStateDesignPattern/tempArtifacts
+            zip -r VehicleStateDesignPattern .
+            mkdir artifacts
+            mv VehicleStateDesignPattern artifacts
 
       - store_artifacts:
-          path: ./VehicleStateDesignPattern/tempArtifacts
+          path: ./VehicleStateDesignPattern/tempArtifacts/artifacts
+
+workflows:
+  version: 2.1
+  build:
+    jobs:
+      - approve-build:
+          type: approval
+          # filters:
+          #   branches:
+          #     only: develop
+
+      - build:
+          requires:
+            - approve-build
