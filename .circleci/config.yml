@@ -14,12 +14,11 @@ jobs:
           name: "dotnet publish"
           command: |
             dotnet publish -o ./VehicleStateDesignPattern/tempArtifacts ./VehicleStateDesignPattern/VehicleStateDesignPattern/VehicleStateDesignPattern.csproj
-            apt-get update
-            apt-get install zip -y
+            yum install zip -y
             cd VehicleStateDesignPattern/tempArtifacts
             zip -r VehicleStateDesignPattern .
             mkdir artifacts
-            mv VehicleStateDesignPattern artifacts
+            mv VehicleStateDesignPattern.zip artifacts
 
       - store_artifacts:
           path: ./VehicleStateDesignPattern/tempArtifacts/artifacts
