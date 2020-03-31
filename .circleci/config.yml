@@ -9,7 +9,13 @@ jobs:
 
     steps:
       - checkout
-      - run: dotnet publish -o ./artifacts ./VehicleStateDesignPattern/VehicleStateDesignPattern/VehicleStateDesignPattern.csproj
+      - run:
+          name: "dotnet build"
+          command: dotnet build
 
-workflow:
-  - build
+      - run:
+          name: "dotnet publish"
+          command: "dotnet publish -o ./VehicleStateDesignPattern/tempArtifacts ./VehicleStateDesignPattern/VehicleStateDesignPattern/VehicleStateDesignPattern.csproj"
+
+      - store_artifacts:
+          path: ./VehicleStateDesignPattern/tempArtifacts
