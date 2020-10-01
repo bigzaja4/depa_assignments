@@ -1,0 +1,87 @@
+FORMAT: 1A
+HOST: http://domain
+
+# Profile
+
+## GetProfile [/api/profile/{userId}]
+
+### GetProfile [GET]
+
++ Parameters
+
+    + userId: 10001 (string) : An unique user id.
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "firstname": "Sommai",
+                "lastname": "Nakrub",
+                "DoB": "12/12/2012",
+                "display": "https://music.mthai.com/app/uploads/2018/01/thumb-tao.jpg"
+            }
+
+## SaveProfile [/api/profile]
+
+### SaveProfile [POST]
+
++ Request (application/json)
+
+    + Body
+
+            {
+                "firstname": "Sommai",
+                "lastname": "Nakrub",
+                "DoB": "12/12/2012",
+                "display": "https://music.mthai.com/app/uploads/2018/01/thumb-tao.jpg"
+            }
+
++ Response 200 (application/json)
+
+    + Body
+
+        {
+            "msg": "success",
+            "timestamp": 2020-09-30T10:20:30+00:00 
+        }
+
++ Request (application/json)
+
+    + Body 
+
+            {
+                "firstname": "Sommai",
+                "lastname": "Nakrub",
+                "DoB": "!@#$%^&",
+                "display": ""
+            }
+
++ Response 400 (application/json)
+
+    + Body 
+
+            {
+                "msg": "Invalid DoB",
+                "timestamp": 2020-09-30T10:20:30+00:00 
+            }
+
++ Request (application/json)
+
+    + Body
+
+            {
+                "firstname": "",
+                "lastname": "",
+                "DoB": "",
+                "display": "https://music.mthai.com/app/uploads/2018/01/thumb-tao.jpg"
+            }
+
++ Response 500 (application/json)
+
+    + Body
+
+            {
+                "msg": "Internal Server Error",
+                "timestamp": 2020-09-30T10:20:30+00:00
+            }
