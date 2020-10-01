@@ -15,12 +15,12 @@ HOST: http://domain
 
     + Body
 
-            {
-                "firstname": "Sommai",
-                "lastname": "Nakrub",
-                "DoB": "12/12/2012",
-                "display": "https://music.mthai.com/app/uploads/2018/01/thumb-tao.jpg"
-            }
+                {
+                    "firstname": "Sommai",
+                    "lastname": "Nakrub",
+                    "DoB": "12/12/2012",
+                    "display": "https://music.mthai.com/app/uploads/2018/01/thumb-tao.jpg"
+                }
 
 ## SaveProfile [/api/profile]
 
@@ -30,58 +30,58 @@ HOST: http://domain
 
     + Body
 
-            {
-                "firstname": "Sommai",
-                "lastname": "Nakrub",
-                "DoB": "12/12/2012",
-                "display": "https://music.mthai.com/app/uploads/2018/01/thumb-tao.jpg"
-            }
+                {
+                    "firstname": "Sommai",
+                    "lastname": "Nakrub",
+                    "DoB": "12/12/2012",
+                    "display": "https://music.mthai.com/app/uploads/2018/01/thumb-tao.jpg"
+                }
 
 + Response 200 (application/json)
 
     + Body
 
-        {
-            "msg": "success",
-            "timestamp": 2020-09-30T10:20:30+00:00 
-        }
+                {
+                    "msg": "success",
+                    "timestamp": 2020-09-30T10:20:30+00:00 
+                }
 
 + Request (application/json)
 
     + Body 
 
-            {
-                "firstname": "Sommai",
-                "lastname": "Nakrub",
-                "DoB": "!@#$%^&",
-                "display": ""
-            }
+                {
+                    "firstname": "Sommai",
+                    "lastname": "Nakrub",
+                    "DoB": "!@#$%^&",
+                    "display": ""
+                }
 
 + Response 400 (application/json)
 
     + Body 
 
-            {
-                "msg": "Invalid DoB",
-                "timestamp": 2020-09-30T10:20:30+00:00 
-            }
+                {
+                    "msg": "Invalid DoB",
+                    "timestamp": 2020-09-30T10:20:30+00:00 
+                }
 
 + Request (application/json)
 
     + Body
 
-            {
-                "firstname": "",
-                "lastname": "",
-                "DoB": "",
-                "display": "https://music.mthai.com/app/uploads/2018/01/thumb-tao.jpg"
-            }
+                {
+                    "firstname": "",
+                    "lastname": "",
+                    "DoB": "",
+                    "display": "https://music.mthai.com/app/uploads/2018/01/thumb-tao.jpg"
+                }
 
 + Response 500 (application/json)
 
     + Body
 
-            {
-                "msg": "Internal Server Error",
-                "timestamp": 2020-09-30T10:20:30+00:00
-            }
+                {
+                    "msg": "Internal Server Error",
+                    "timestamp": 2020-09-30T10:20:30+00:00
+                }
